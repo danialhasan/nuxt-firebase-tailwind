@@ -1,4 +1,5 @@
-# calendh
+# Nuxtjs + TailwindCSS + Firebase template
+This took a week to set up. It's all done now.  
 
 ## Build Setup
 
@@ -15,6 +16,9 @@ $ npm run start
 
 # generate static project
 $ npm run generate
+
+# run tests
+$ npm run test
 ```
 
 For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
