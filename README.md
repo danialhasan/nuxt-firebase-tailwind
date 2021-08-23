@@ -1,7 +1,7 @@
 # Nuxtjs + TailwindCSS + Firebase template
 This took a week to set up. It's all done now.
 
-*NOTE: TailwindCSS is default non-JIT mode. To enable Tailwind JIT, create a tailwind config with npx tailwind init, add 'mode:"jit"', and you're done.*
+**NOTE: TailwindCSS is default non-JIT mode. To enable Tailwind JIT, create a tailwind config with npx tailwind init, add 'mode:"jit"', and you're done.**
 
 ## Build Setup
 
