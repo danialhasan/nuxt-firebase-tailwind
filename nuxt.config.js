@@ -27,8 +27,19 @@ module.exports = {
   buildModules: [
     // https://go.nuxtjs.dev/tailwindcss
     "@nuxtjs/tailwindcss",
+    "@nuxtjs/firebase" // nuxt firebase module
   ],
-
+  // This is how the docs organizes its firebase related code: https://firebase.nuxtjs.org/guide/getting-started#example-configuration
+firebase:{
+config:{
+      apiKey: "<copy this from firebase console>",
+      authDomain: "<copy this from firebase console>",
+      projectId: "<copy this from firebase console>",
+      storageBucket: "<copy this from firebase console>",
+      messagingSenderId: "<copy this from firebase console>",
+      appId: "<copy this from firebase console>",
+},services:{auth:true // example}
+},
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [],
 
