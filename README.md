@@ -2,7 +2,7 @@
 This took a week to set up. It's all done now.
 
 **NOTE: TailwindCSS is default non-JIT mode. To enable Tailwind JIT, create a tailwind config with npx tailwind init, add 'mode:"jit"', and you're done.**
-
+**NOTE: This does not have an API connection to Firebase yet. To get that, you have to copy it from a web app you've created in the Firebase console under a new or existing Firebase project.**
 ## Build Setup
 
 ```bash
